@@ -1,0 +1,28 @@
+{
+  "name": "uglify-es-browser",
+  "version": "1.0.0",
+  "description": "A browser version of uglify-es",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js && webpack",
+    "pack": "node build.js && webpack --config webpack.config.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CCDirectLink/UglifyEsBrowser.git"
+  },
+  "author": "CCDirectLink",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CCDirectLink/UglifyEsBrowser/issues"
+  },
+  "homepage": "https://github.com/CCDirectLink/UglifyEsBrowser#readme",
+  "dependencies": {
+    "uglify-es": "^3.3.9"
+  },
+  "devDependencies": {
+    "webpack": "^4.22.0",
+    "webpack-cli": "^3.1.2"
+  }
+}
